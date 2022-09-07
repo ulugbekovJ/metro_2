@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header .jst li {
+  color: black;
+  text-align: center;
+  margin: 0px 5px;
+}
+
+header .jst li a {
+  color: black !important;
+  font-family: "Inconsolata", monospace;
+  font-size: 22px;
+}
+
+header .jst li a:hover {
+  color: gray !important;
+}
+
+header .icons {
+  display: flex;
+  font-size: 22px;
+  padding-top: 15px;
+  padding-left: 50px;
+}
+
+header .icons i {
+  padding-top: 5px;
+}
+
+header .icons i,
+header .icons p {
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+header .icons i:hover,
+header .icons p:hover {
+  color: gray;
+}
+
+header .icons p {
+  color: gray;
+}
+
+header .categories {
+  padding: 3px 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+header .categories span {
+  display: block;
+  margin: 3px 0px;
+  background-color: white;
+  width: 10px;
+  height: 3px;
+  margin: 5px;
+}
+
+header .categories .span-group {
+  margin: 10px 5px;
+  cursor: pointer;
+}
+
+header .categories .sp_1 {
+  width: 20px;
+}
+
+header .categories .sp_2 {
+  width: 30px;
+}
+
+header .categories .sp_3 {
+  width: 25px;
+}
+
+header .categories.show .all-categoriya {
+  display: block;
+}
+
+.all-categoriya {
+  height: 450px;
+}
+
+header .mygr {
+  height: 0px;
+}
+
+header .flex {
+  display: flex;
+}
+
+header .search_btn {
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  padding: 10px 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+header .categ {
+  display: flex;
+}
+
+header .categ h2 {
+  padding-top: 10px;
+}
+
+header .all-categoriya {
+  display: block;
+
+}
+
+@media (max-width: 992px) {
+  header .all-categoriya {
+    display: none;
+  }
+}
+
+header .all-categoriya p {
+  border-top: 1px solid gray;
+  padding: 10px 0;
+}
+
+header .all-categoriya p:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+header .gro {
+  display: flex;
+}
+
+.text2 {
+  padding: 20px;
+  align-items: center;
+
+  .spring {
+    font-weight: 700;
+    font-size: 62px;
+    margin-top: 50px;
+
+    span {
+      background-color: black;
+      color: white;
+      padding: 0px 8px;
+    }
+
+
+  }
+
+  .txt2_p {
+    padding: 15px 0;
+  }
+
+  button {
+    margin: 20px 0;
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 22px;
+    position: relative;
+    transition: .5s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+
+  }
+
+  .hh1 {
+    margin-top: 25px;
+
+    span {
+      font-size: 28px;
+    }
+  }
+}
+
+.imag {
+
+  img {
+    margin-top: 20px;
+    width: 110%;
+  }
+}
+
+#sect1 {
+  font-family: 'Josefin Sans', sans-serif;
+
+  .container {
+    .wm1 {
+      width: 100%;
+      height: 100%;
+      margin: 20px;
+    }
+
+    .wm {
+
+      background-image: url(../img/h82.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      position: relative;
+      margin-bottom: 20px;
+
+      .women {
+        position: absolute;
+        bottom: 20px;
+        cursor: pointer;
+
+        h3 {
+          font-weight: bold;
+        }
+
+        p {
+          font-weight: 600;
+          margin: 0;
+          padding: 0;
+
+
+        }
+
+        span {
+          display: block;
+          background-color: black;
+          width: 50px;
+          height: 3px;
+          transition: .5s;
+
+        }
+      }
+
+      .women:hover .pch {
+        width: 100px;
+      }
+    }
+
+    .mm {
+      background-image: url(../img/h81.jpg);
+    }
+  }
+}
+
+#sect2 {
+  .container {
+    .otp {
+      font-family: 'Josefin Sans', sans-serif;
+      text-align: center;
+      font-weight: 600;
+      padding: 10px 0;
+    }
+
+    .ctga {
+      display: flex;
+      justify-content: center;
+
+      .all {
+        font-weight: 700;
+        color: black;
+      }
+
+      p {
+        color: gray;
+        padding-right: 20px;
+        font-size: 22px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+
+    }
+
+    img {
+      width: 100%;
+    }
+
+    del{
+      color: gray;
+    }
+
+    .sp4{
+      position: absolute;
+      z-index: 100;
+      background-color: black;
+      color: white;
+      padding: 2px 2px;
+      border-radius: 3px;
+      margin: 5px;
+    }
+
+    .ps4{
+      position: relative;
+    }
+
+    .box {
+      height: 300px;
+      margin-bottom: 50px;
+      overflow: hidden;
+
+      .bag {
+        color: gray;
+        font-family: 'Josefin Sans', sans-serif;
+        display: block;
+      }
+
+      transition: .5s;
+
+      &:hover {
+        height: 365px;
+      }
+    }
+
+    .card-icon {
+      display: flex;
+      color: white;
+      font-size: 22px;
+
+      i {
+        background-color: black;
+        padding: 15px 5px;
+        margin: 3px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.61);
+        }
+      }
+
+      .atc {
+        margin: 0;
+        background-color: black;
+        padding: 10px 5px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.61);
+        }
+      }
+    }
+  }
+}
+
+#sect3{
+  .fg{
+    width: 100%;
+    padding: 0;
+  }
+
+  .pd{
+    padding: 0;
+  }
+  .sale30{
+    
+    height: 400px;
+    background-image: url(../img/bench-accounting-scaled.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    padding: 30px;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+
+    .text-sale{
+      margin-top: 70px;
+
+      .sow{
+        background-color: white;
+        border: none;
+        padding: 10px 5px;
+        transition: .5s;
+        &:hover{
+          background-color: black;
+          color: white;
+        }
+      }
+    }
+  }
+  .container{
+    .row{
+      .nn{
+        cursor: pointer;
+        transition: .5s;
+      }
+      .tach{
+        display: block;
+        background-color: black;
+        height: 3px ;
+        width: 100px;
+        margin: 0 auto;
+        transition: .5s;
+      }
+
+      .nn:hover .tach{
+        width: 200px;
+      }
+      
+    }
+  }
+}
+
+#sect4{
+  .container{
+    .row{
+      .sweter{
+        background-image: url(../img/p81.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        height: 400px;
+        padding: 10px;
+        position: relative;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+      .sw_text{
+        position: absolute;
+        bottom: 10px;
+        .shopnow{
+          border: none;
+          background-color: transparent;
+          font-weight: 800;
+          transition: .5s;
+          padding: 10px 5px; 
+            &:hover{
+             background-color: black;
+             color: white;
+             
+            }
+        }
+      }
+      .kras{
+        background-image: url(../img/p82.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        .sw_text{
+          top: 10px;
+        }
+      }
+    }
+  }
+}
+
+
+#section5 {
+  .container {
+      .london {
+          position: relative;
+          margin-bottom: 20px;
+          img {
+              width: 100%;
+              border-radius: 10px;
+
+          }
+
+          @media (max-width: 992px) {
+              .dec{
+                  display: none;
+              }
+          }
+          .dec {
+              width: 70px;
+              height: 70px;
+              border-radius: 50%;
+              padding: 0px;
+              background-color: white;
+              position: absolute;
+              z-index: 1000;
+              color: black;
+              left: 10px;
+              top: 115px;
+              text-align: center;
+
+              p {
+                  padding: 0;
+                  font-weight: 700;
+              }
+
+              cursor: pointer;
+              transition: .5s;
+
+              &:hover {
+                  background-color: rgba(0, 0, 0, 0.692);
+                  color: white;
+              }
+          }
+
+
+      }
+  }
+}
+
+#sect6{
+  .container{
+    .row{
+      form{
+        .email{
+          background-color: rgba(192, 187, 187, 0.534);
+          border: none;
+          border-radius:20px ;
+          width: 210px;
+          height: 40px;
+          padding: 0 10px;
+        }
+        .submit{
+          background-color: rgba(0, 0, 0, 0.945);
+          color: white;
+          border: none;
+          border-radius: 15px;
+          padding: 8px 15px;
+          &:active{
+            background-color: rgba(0, 0, 0, 0.733);
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+
+  p,
+  i {
+      color: gray;
+      cursor: pointer;
+
+      &:hover {
+          color: white;
+
+      }
+  }
+
+  h3 {
+      color: white;
+  }
+
+  img {
+      width: 80%;
+      display: block;
+  }
+
+  .sx {
+      padding: 10px 0;
+
+      i,
+      p {
+          display: inline-block;
+          font-size: 18px;
+          padding-right: 5px;
+      }
+  }
+
+  .fg {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  span {
+      color: white;
+  }
+
+  .sogical {
+      i {
+          margin-right: 8px;
+          font-size: 22px;
+
+          &:hover {
+              color: white;
+          }
+      }
+  }
+
+  .card {
+      i {
+          display: inline-block;
+          font-size: 22px;
+      }
+  }
+}

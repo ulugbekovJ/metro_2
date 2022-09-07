@@ -1,0 +1,486 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header .jst li {
+  color: black;
+  text-align: center;
+  margin: 0px 5px;
+}
+
+header .jst li a {
+  color: black !important;
+  font-family: "Inconsolata", monospace;
+  font-size: 22px;
+}
+
+header .jst li a:hover {
+  color: gray !important;
+}
+
+header .icons {
+  display: flex;
+  font-size: 22px;
+  padding-top: 15px;
+  padding-left: 50px;
+}
+
+header .icons i {
+  padding-top: 5px;
+}
+
+header .icons i,
+header .icons p {
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+header .icons i:hover,
+header .icons p:hover {
+  color: gray;
+}
+
+header .icons p {
+  color: gray;
+}
+
+header .categories {
+  padding: 3px 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+header .categories span {
+  display: block;
+  margin: 3px 0px;
+  background-color: white;
+  width: 10px;
+  height: 3px;
+  margin: 5px;
+}
+
+header .categories .span-group {
+  margin: 10px 5px;
+  cursor: pointer;
+}
+
+header .categories .sp_1 {
+  width: 20px;
+}
+
+header .categories .sp_2 {
+  width: 30px;
+}
+
+header .categories .sp_3 {
+  width: 25px;
+}
+
+header .categories.show .all-categoriya {
+  display: block;
+}
+
+.all-categoriya {
+  height: 450px;
+}
+
+header .mygr {
+  height: 0px;
+}
+
+header .flex {
+  display: flex;
+}
+
+header .search_btn {
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  padding: 10px 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+header .categ {
+  display: flex;
+}
+
+header .categ h2 {
+  padding-top: 10px;
+}
+
+header .all-categoriya {
+  display: block;
+}
+
+@media (max-width: 992px) {
+  header .all-categoriya {
+    display: none;
+  }
+}
+header .all-categoriya p {
+  border-top: 1px solid gray;
+  padding: 10px 0;
+}
+
+header .all-categoriya p:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+header .gro {
+  display: flex;
+}
+
+.text2 {
+  padding: 20px;
+  align-items: center;
+}
+.text2 .spring {
+  font-weight: 700;
+  font-size: 62px;
+  margin-top: 50px;
+}
+.text2 .spring span {
+  background-color: black;
+  color: white;
+  padding: 0px 8px;
+}
+.text2 .txt2_p {
+  padding: 15px 0;
+}
+.text2 button {
+  margin: 20px 0;
+  border: none;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 22px;
+  position: relative;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.text2 button:hover {
+  background-color: black;
+  color: white;
+}
+.text2 .hh1 {
+  margin-top: 25px;
+}
+.text2 .hh1 span {
+  font-size: 28px;
+}
+
+.imag img {
+  margin-top: 20px;
+  width: 110%;
+}
+
+#sect1 {
+  font-family: "Josefin Sans", sans-serif;
+}
+#sect1 .container .wm1 {
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+}
+#sect1 .container .wm {
+  background-image: url(../img/h82.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  margin-bottom: 20px;
+}
+#sect1 .container .wm .women {
+  position: absolute;
+  bottom: 20px;
+  cursor: pointer;
+}
+#sect1 .container .wm .women h3 {
+  font-weight: bold;
+}
+#sect1 .container .wm .women p {
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+#sect1 .container .wm .women span {
+  display: block;
+  background-color: black;
+  width: 50px;
+  height: 3px;
+  transition: 0.5s;
+}
+#sect1 .container .wm .women:hover .pch {
+  width: 100px;
+}
+#sect1 .container .mm {
+  background-image: url(../img/h81.jpg);
+}
+
+#sect2 .container .otp {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  padding: 10px 0;
+}
+#sect2 .container .ctga {
+  display: flex;
+  justify-content: center;
+}
+#sect2 .container .ctga .all {
+  font-weight: 700;
+  color: black;
+}
+#sect2 .container .ctga p {
+  color: gray;
+  padding-right: 20px;
+  font-size: 22px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#sect2 .container img {
+  width: 100%;
+}
+#sect2 .container del {
+  color: gray;
+}
+#sect2 .container .sp4 {
+  position: absolute;
+  z-index: 100;
+  background-color: black;
+  color: white;
+  padding: 2px 2px;
+  border-radius: 3px;
+  margin: 5px;
+}
+#sect2 .container .ps4 {
+  position: relative;
+}
+#sect2 .container .box {
+  height: 300px;
+  margin-bottom: 50px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+#sect2 .container .box .bag {
+  color: gray;
+  font-family: "Josefin Sans", sans-serif;
+  display: block;
+}
+#sect2 .container .box:hover {
+  height: 365px;
+}
+#sect2 .container .card-icon {
+  display: flex;
+  color: white;
+  font-size: 22px;
+}
+#sect2 .container .card-icon i {
+  background-color: black;
+  padding: 15px 5px;
+  margin: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#sect2 .container .card-icon i:hover {
+  background-color: rgba(0, 0, 0, 0.61);
+}
+#sect2 .container .card-icon .atc {
+  margin: 0;
+  background-color: black;
+  padding: 10px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#sect2 .container .card-icon .atc:hover {
+  background-color: rgba(0, 0, 0, 0.61);
+}
+
+#sect3 .fg {
+  width: 100%;
+  padding: 0;
+}
+#sect3 .pd {
+  padding: 0;
+}
+#sect3 .sale30 {
+  height: 400px;
+  background-image: url(../img/bench-accounting-scaled.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  margin-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+#sect3 .sale30 .text-sale {
+  margin-top: 70px;
+}
+#sect3 .sale30 .text-sale .sow {
+  background-color: white;
+  border: none;
+  padding: 10px 5px;
+  transition: 0.5s;
+}
+#sect3 .sale30 .text-sale .sow:hover {
+  background-color: black;
+  color: white;
+}
+#sect3 .container .row .nn {
+  cursor: pointer;
+  transition: 0.5s;
+}
+#sect3 .container .row .tach {
+  display: block;
+  background-color: black;
+  height: 3px;
+  width: 100px;
+  margin: 0 auto;
+  transition: 0.5s;
+}
+#sect3 .container .row .nn:hover .tach {
+  width: 200px;
+}
+
+#sect4 .container .row .sweter {
+  background-image: url(../img/p81.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  height: 400px;
+  padding: 10px;
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+}
+#sect4 .container .row .sw_text {
+  position: absolute;
+  bottom: 10px;
+}
+#sect4 .container .row .sw_text .shopnow {
+  border: none;
+  background-color: transparent;
+  font-weight: 800;
+  transition: 0.5s;
+  padding: 10px 5px;
+}
+#sect4 .container .row .sw_text .shopnow:hover {
+  background-color: black;
+  color: white;
+}
+#sect4 .container .row .kras {
+  background-image: url(../img/p82.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+#sect4 .container .row .kras .sw_text {
+  top: 10px;
+}
+
+#section5 .container .london {
+  position: relative;
+  margin-bottom: 20px;
+}
+#section5 .container .london img {
+  width: 100%;
+  border-radius: 10px;
+}
+@media (max-width: 992px) {
+  #section5 .container .london .dec {
+    display: none;
+  }
+}
+#section5 .container .london .dec {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding: 0px;
+  background-color: white;
+  position: absolute;
+  z-index: 1000;
+  color: black;
+  left: 10px;
+  top: 115px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#section5 .container .london .dec p {
+  padding: 0;
+  font-weight: 700;
+}
+#section5 .container .london .dec:hover {
+  background-color: rgba(0, 0, 0, 0.692);
+  color: white;
+}
+
+#sect6 .container .row form .email {
+  background-color: rgba(192, 187, 187, 0.534);
+  border: none;
+  border-radius: 20px;
+  width: 210px;
+  height: 40px;
+  padding: 0 10px;
+}
+#sect6 .container .row form .submit {
+  background-color: rgba(0, 0, 0, 0.945);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 8px 15px;
+}
+#sect6 .container .row form .submit:active {
+  background-color: rgba(0, 0, 0, 0.733);
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+}
+footer p,
+footer i {
+  color: gray;
+  cursor: pointer;
+}
+footer p:hover,
+footer i:hover {
+  color: white;
+}
+footer h3 {
+  color: white;
+}
+footer img {
+  width: 80%;
+  display: block;
+}
+footer .sx {
+  padding: 10px 0;
+}
+footer .sx i,
+footer .sx p {
+  display: inline-block;
+  font-size: 18px;
+  padding-right: 5px;
+}
+footer .fg {
+  display: flex;
+  justify-content: space-between;
+}
+footer span {
+  color: white;
+}
+footer .sogical i {
+  margin-right: 8px;
+  font-size: 22px;
+}
+footer .sogical i:hover {
+  color: white;
+}
+footer .card i {
+  display: inline-block;
+  font-size: 22px;
+}/*# sourceMappingURL=style.css.map */
